@@ -15,43 +15,8 @@ document.addEventListener("DOMContentLoaded", function(){
 });
 
 
-
-
-//pdf download
-
 function downloadPDF() {
-  // Caminho  do arquivo PDF
   const pdfPath = 'img/pdf.pdf';
-  
-  // Nome do arquivo
-  const fileName = 'pdf.pdf';
-  
-  // Cria um elemento <a> temporário
-  const link = document.createElement('a');
-  
-  // Define o atributo href com o caminho  do arquivo PDF
-  link.href = pdfPath;
-  
-  // Define o atributo download com o nome do arquivo
-  link.download = fileName;
-  
-  // Adiciona o elemento <a> ao corpo do documento
-  document.body.appendChild(link);
-  
-  // Clica no link para iniciar o download
-  link.click();
-  
-  // Remove o elemento <a> do corpo do documento
-  document.body.removeChild(link);
+  window.open(pdfPath, '_blank'); // abre em nova guia e não afeta a atual
 }
 
-
-/*
-function scrollDown() {
-  window.scrollBy({ 
-    top: window.innerHeight, // Scroll down pela altura da janela
-    left: 0, 
-    behavior: 'smooth' // Comportamento de scroll suave
-  });
-}
-*/

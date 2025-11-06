@@ -224,7 +224,7 @@ p{
 
 
 .h2-sobre {
-  color: #ff3800;
+  color: #233d4d;
   font-size:2.5em;
   margin-left: 25px;
   margin-bottom: 45px;
@@ -521,7 +521,7 @@ nav {
   text-decoration: underline; /* Adicionando linha ao passar o mouse */
 }
 
-/*-------------------------------fim*/
+
 
 /*------------------------------------------SOBRE MIM*/
 .articleUm{
@@ -637,7 +637,7 @@ nav {
   border-left: 3px solid #ff3800;
   margin-bottom: 30px;
   border-radius: 5px;
-  background-color: #373434d8;
+  background-color: #233d4d;
 }
 
 /*bolinha*/
@@ -672,61 +672,18 @@ nav {
 
 }
 
-
-
-
 /******************************MODAL*/
 .p-modal{
   font-size: 14px;
 }
 .modal-content {
-  background-color: #f7f3d2; /* Cor de fundo do modal */
-  color: #333; /* Cor do texto do modal */
+  background-color: #ffffff; /* Cor de fundo do modal */
+  color: #233d4d; /* Cor do texto do modal */
 }
-
-
-/* Skills Section
-********************************************************************* */
-.skills {
-	padding-top: 10px;
-  padding-bottom: 50px;
-  
+.modal-body{
+    background-color: #233d4dc8; /* Cor de fundo do modal */
+  color: #ffffff; /* Cor do texto do modal */
 }
-
-.progressBar {
-	margin-bottom: 20px; 
-  overflow: hidden;
-}
-
-h5{
-  overflow: hidden;
-}
-
-.card-body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.808), rgba(168, 155, 155, 0.596)), url('../img/girl\(6\).jpg');
-  background-size: cover;
-  background-position: center;
-  color: white;
-  border-radius: 20px;
-  padding: 20px; /* Adicione um preenchimento interno para melhorar a aparência */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
-}
-
-
-
-
-.progressBar h4 {
-	font-size: 16px;
-	text-transform: none;
-	margin-bottom: 5px; 
-  overflow: hidden;
-}
-
-
-
-
-/******************************FIM*/
-
 
 /*---------------------------------------------------------------------------------------------------------------------Projetos*/
 
@@ -788,13 +745,12 @@ h5{
 /*--------------------------------------------------------------------skills*/
 
 .skills{
-  background-color: #373434;
+  background-color: #233d4d;
 }
 
 .fa-star{
   color: #ff3800;
 }
-
 
 
 /*-----------------------------------------------------------CONTATO*/
@@ -809,7 +765,7 @@ h5{
 
 
 .tect{
-  background-color: #373434;
+  background-color: #233d4d;
   color: #f4f0e6;
   backdrop-filter: blur(10px); /* Aplicando o filtro de desfoque */
   padding-right: 40px;
@@ -850,7 +806,7 @@ label {
 .btn-enviar{
   margin-top: 50px;
   margin-left: 250px;
-  background-color: #373434;
+  background-color: #233d4d;
 }
 
 .img-cont{
@@ -1049,7 +1005,7 @@ body{
   /*CONTATO*/
 
   .tect{
-    background-color: #373434;
+    background-color: #233d4d;
     color: #f4f0e6;
     border-radius: 140px 0 170px 0;
     padding-left:45px;
@@ -1121,7 +1077,8 @@ body{
   }
   
   .navbar {
-    background-color: transparent; /* Defina a cor de fundo como transparente apenas em telas menores */
+    background-color: transparent; 
+  
   }
   
  
@@ -1218,24 +1175,6 @@ body{
   .servico-item3{
     padding-left: 60px;
   }
-/*====================================================skills*/
-  #skills{
-    margin-top: 600px;
-    padding: 0;
-  }
-
-  
-  .img-skill{
-    max-width: 360px;
-    margin-left: 42px;
-   
-  }
-
-  
-  .progressBar{
-    padding-left: 33px;
-    margin-left: 13px;
-  }
 
   /*=======================================================PROJETOS*/
   
@@ -1280,7 +1219,7 @@ body{
   /*CONTATO*/
 
   .tect{
-    background-color: #373434;
+    background-color: #233d4d;
     color: #f4f0e6;
     border-radius: 140px 0 170px 0;
     padding-left:45px;
@@ -1321,7 +1260,7 @@ body{
   /*CONTATO*/
 
   .tect{
-    background-color: #373434;
+    background-color: #233d4d;
     color: #f4f0e6;
     border-radius: 140px 0 170px 0;
     padding-left:45px;
