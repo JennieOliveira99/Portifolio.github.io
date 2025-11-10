@@ -1,6 +1,6 @@
 <h1 align="center">Portfólio Jennyfer Alvim</h1>
 
-<h4> 🎨🖥️Bem-vindo ao meu Portfólio pessoal de programação, onde busquei ao máximo ser criativa e original, desde a paleta de cores até o desenvolvimento dos projetos.</h4>
+<h4> 🎨🖥️Bem-vindos ao meu Portfólio pessoal de programação, onde busquei ao máximo ser criativa e original, desde a paleta de cores até o desenvolvimento dos projetos.</h4>
  
 <p align="center"><img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/></p>
 
