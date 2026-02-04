@@ -902,10 +902,9 @@ body{
     margin-left: 0;
   }
  
-  .eu {
-   max-width: 300px;
-   margin-left: -20px;
-  }
+ .img-container{
+  max-height: 50px;
+ }
 /*trocar*/
   .btn-2{
     width: 200px;
